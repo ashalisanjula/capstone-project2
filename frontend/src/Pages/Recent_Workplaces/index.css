@@ -1,0 +1,170 @@
+.container1 {
+    display: flex;
+}
+
+.sidebar1 {
+    width: 350px;
+    margin-top: -6px;
+    margin-left: -10px;
+    height: 100vh;
+    /* margin-bottom: 0px; */
+    background: var(--primary-color);
+}
+
+.top_section1 {
+    margin-left: 10px;
+    /* margin-right: 50px; */
+    display: flex;
+    text-align: center;
+}
+
+.logo1 {
+    padding-top: 20px;
+}
+
+.title1 {
+    color: white;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.addImage {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.image {
+    text-align: center;
+    padding: 90px 40px;
+    background: var(--secondary-color);
+    border-radius: 15px;
+}
+
+.image img {
+    width: 13px;
+}
+
+.image a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.functionSection {
+    width: 324px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.functionTitle {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hr2 {
+    margin-right: 40px;
+    width: 94%;
+    border: 1.5px solid white;
+}
+
+.function {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.function img {
+    margin-right: 15px;
+    width: 14px;
+}
+
+.function span {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.userSection1 {
+    margin-top: 220px;
+}
+
+.recentSection {
+    margin-top: 100px;
+    margin-left: 330px;
+    width: 434px;
+}
+
+.recentTitle {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+}
+
+.recent {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.work {
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.work input {
+    width: 366px;
+    padding: 12px 8px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.work img {
+    margin-top: 15px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+
+.btn {
+    background-color: 090E2E;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+.delete img {
+    width: 33px;
+    background: var(--primary-color);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.createSection {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.createTitle {
+    color: white;
+    font-size: 17.5px;
+    font-weight: 500;
+}
+
+.createImg img {
+    width: 30px;
+    background: var(--primary-color);
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}

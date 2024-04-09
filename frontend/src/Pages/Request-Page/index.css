@@ -1,0 +1,288 @@
+.sidebar3 {
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 370px;
+}
+
+.navbar3 {
+    margin-top: -20px;
+}
+
+.tabSection3 {
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.workplace2 {
+    margin-top: 45px;
+    margin-left: -10px;
+}
+
+.hr2 {
+    margin-left: -10px;
+}
+
+.workplace2 span {
+    color: white;
+    font-size: 20px;
+}
+
+.overviewSection2 {
+    margin-top: 15px;
+    margin-left: -10px;
+    display: flex;
+    gap: 100px;
+}
+
+.overviewSection2 .active {
+    border-bottom: 2px solid white;
+}
+
+.collectionOverview span {
+    font-size: 18px;
+}
+
+.collectionOverview button{
+    cursor: pointer;
+}
+
+.requestBox {
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 1000px;
+}
+
+.box {
+    padding: 20px;
+    background: var(--primary-color);
+    border-radius: 15px;
+}
+
+.box .top-box {
+    display: flex;
+}
+
+.box .input-bar {
+    height: 40px;
+    width: 820px;
+    margin-left: 10px;
+    margin-right: 25px;
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.input-bar .method {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input-bar .method #method-select {
+    width: 100px;
+    background: var(--primary-color);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.method .get {
+    color: green;
+    font-weight: 600;
+}
+
+.method .post {
+    color: orange;
+    font-weight: 600;
+}
+
+.method .put {
+    color: blue;
+    font-weight: 600;
+}
+
+.method .delete {
+    color: red;
+    font-weight: 600;
+}
+
+.input-bar .vl1 {
+    margin-top: 7px;
+    margin-left: -20px;
+    height: 25px;
+}
+
+.input-bar .id,
+.input-bar .url {
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+.input-bar input {
+    padding: 6px 35px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
+.input-bar .vl2 {
+    margin-top: 7px;
+    margin-left: -40px;
+    height: 25px;
+}
+
+.input-bar .url input {
+    width: 370px;
+}
+
+.buttonBox button {
+    margin-top: -2px;
+    width: 100px;
+    padding: 13px 30px;
+    background: var(--secondary-color);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.box .flex {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 48px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 60px;
+}
+
+.box .flex .inputBox input {
+    width: 435px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    color: white;
+}
+
+.input {
+    display: flex;
+    margin-top: 60px;
+}
+
+.input-table {
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+.input-table .requestBody {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.input-table table {
+    margin-top: 5px;
+}
+
+.input-table .row1,
+.input-table .row2 {
+    height: 35px;
+}
+
+.blank {
+    width: 60px;
+}
+
+.key,
+.value {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: 200;
+}
+
+.row2 .blank img {
+    margin-top: 5px;
+    width: 18px;
+    cursor: pointer;
+}
+
+.row2 .key input,
+.row2 .value input {
+    width: 200px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    padding: 7px;
+    color:white;
+}
+
+.input-table1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.input-table1 .queryParams {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.input-table1 table {
+    margin-top: 5px;
+}
+
+.input-table1 .row1,
+.input-table1 .row2 {
+    height: 35px;
+}
+
+.input-line {
+    margin-top: -20px;
+    margin-left: 30px;
+    height: 210px;
+}
+
+.input-right {
+    margin-left: 30px;
+}
+
+.input-right .right-title {
+    margin-top: -20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 0px;
+}
+
+.input-right .request-hr {
+    margin-top: -15px;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    width: 400px;
+    color: white;
+    border: 1px solid;
+}
+
+.input-right .request-content {
+    font-size: 14px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+

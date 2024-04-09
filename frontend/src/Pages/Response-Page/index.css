@@ -1,0 +1,64 @@
+.collectionBox2 {
+    margin-top: 20px;
+    margin-left: 320px;
+    width: 570px;
+}
+
+.myWork3 {
+    margin-top: 60px;
+    margin-left: -15px;
+    font-size: 22px;
+}
+
+.hr3 {
+    margin-left: -20px;
+}
+
+.overviewSection3 {
+    margin-top: 15px;
+    margin-left: -20px;
+    display: flex;
+    gap: 100px;
+}
+
+.overviewSection3 .active {
+    border-bottom: 2px solid white;
+}
+
+.inputBox2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.inputBox2 input {
+    border: none;
+    width: 500px;
+    border-bottom: 2px solid white;
+    background: var(--primary-color);
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+.invite-btn {
+    margin-left: 200px;
+}
+
+.invite-btn button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+

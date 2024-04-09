@@ -1,0 +1,145 @@
+.container1 {
+    display: flex;
+}
+
+.sidebar1 {
+    width: 402px;
+    height: 1119px;
+    background: var(--primary-color);
+}
+
+.top_section1 {
+    margin-left: 36px;
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.logo1 {
+    padding-top: 40px;
+}
+
+.title1 {
+    color: white;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.addImage {
+    margin-top: 40px;
+    margin-left: 8px;
+    width: 356px;
+}
+
+.image {
+    text-align: center;
+    padding: 150px 40px;
+    background: var(--secondary-color);
+    border-radius: 15px;
+}
+
+.image img {
+    width: 13px;
+}
+
+.image a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.functionSection {
+    width: 324px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.functionTitle {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hr2 {
+    border: 1.5px solid white;
+}
+
+.function {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.function img {
+    margin-right: 15px;
+    width: 14px;
+}
+
+.function span {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.userSection1 {
+    margin-top: 250px;
+}
+
+.recentSection {
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 434px;
+}
+
+.recentTitle {
+    color: white;
+    font-size: 32px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+}
+
+.recent {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.work input {
+    width: 366px;
+    padding: 12px 8px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.work input:hover {
+    color: white;
+}
+
+.delete img {
+    width: 33px;
+    background: var(--primary-color);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.createSection {
+    display: flex;
+    gap: 230px;
+    align-items: center;
+}
+
+.createTitle {
+    color: white;
+    font-size: 17.5px;
+    font-weight: 500;
+}
+
+.createImg img {
+    width: 31px;
+    background: var(--primary-color);
+    padding: 5px 5px;
+    border-radius: 10px;
+}

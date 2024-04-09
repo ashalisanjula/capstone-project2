@@ -1,0 +1,66 @@
+.collectionBox {
+    margin-top: 50px;
+    margin-left: -510px;
+    width: 540px;
+}
+
+.box {
+    padding: 20px;
+    background: var(--primary-color);
+    border-radius: 15px;
+}
+
+.close-btn {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 430px;
+    cursor: pointer;
+}
+
+.close-btn span{
+    font-size: 25px;
+    color: white;
+}
+
+.inputBox {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.inputBox input {
+    width: 400px;
+    padding-top: 10px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.inputBox input:hover {
+    color: white;
+}
+
+.create-btn {
+    margin-top: 80px;
+    margin-left: 35px;
+    align-items: center;
+    width: 404px;
+}
+
+.create-btn button {
+    padding: 10px 0;
+    width: 404px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    color: white;
+    background: var(--secondary-color);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}

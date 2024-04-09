@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  letter-spacing: 2px;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+}
+
+.title-section1 {
+  margin-top: 0px;
+}
+.title-section1,
+.title-section2,
+.title-section3,
+.vision-section,
+.founders-section,
+.development-team-section,
+.commitment-section,
+.join-us-section {
+  text-align: center;
+  margin: 100px;
+}
+
+.social-media-links {
+  margin: 50px;
+}
+
+.buttonStyle {
+  background-color: #202650;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Optional: Add margin between buttons */
+}

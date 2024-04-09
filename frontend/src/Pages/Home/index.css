@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: 202650; /* Corrected background color value with # */
+  color: 202650;
+}
+
+.wrapper {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color:202650;
+  border-radius: 5px;
+  box-shadow:202650;
+  padding: 20px;
+}
+
+.form-box {
+  text-align: center;
+}
+
+.form-box.login {
+  color: #007bff; /* Blue color */
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.remember-forget {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: 090E2E;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-register {
+  margin-top: 20px;
+}
+
+.register-link {
+  color: #007bff;
+}
+
+nav {
+  background-color:202650;
+  padding: 10px; 
+  text-align: left;
+  
+}
+
+.nav-item {
+  margin: 75px;
+  text-decoration: none; 
+  color: #dfe2e6; 
+  font-family: 'Inter', sans-serif; 
+  font-weight: bold; 
+}
+
+.nav-item:hover {
+  color: #ffcc00; 
+}
+
+nav {
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.login-button {
+  margin-left: auto; 
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.login-button {
+  background-color:#090E2E; 
+  color: white;
+  padding: 10px 20px; 
+  border: 0.5px solid white; 
+  border-radius: 10px;
+  cursor: pointer; 
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color:'#6D6D71'; 
+}
+
+.register-form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #202650;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.register-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  margin-bottom: 10px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-form button {
+  background-color: #514caf;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #301877;
+}
+
+.logo {
+  width: 30px; 
+  height: auto;
+  margin-right: 10px; 
+}
+
+.app-container {
+  position: relative;
+}
+
+.app-container {
+  position: relative;
+}
+
+.background.blur {
+  filter: blur(45px); 
+}
+
+.login-container,
+.register-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%; 
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%); 
+}
+
+.login-form {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.register-form {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
