@@ -14,26 +14,32 @@ exports.handle = async (req, res) => {
         let collection = {}
         let request = {};
         let response = {};
+        console.log(token);
+        console.log(userId);
 
         if (!userId) {
             res.status(401).json({sts: -1, error: 'Unauthorized'})
         } else {
             let userWorkspaces = await Workspace.find({ownerId: userId});
-
-            userWorkspaces.every((ws) => {
-                ws.collections.every((col) => {
-                    col.requests.every((req) => {
-                        if (req.url === requestPath) {
-                            request = req;
-                            collection = col;
+            // console.log(userWorkspaces);
+            userWorkspaces.forEach((ws) => {
+                
+                if (ws && ws.collections.length) {
+                    ws.collections.forEach((col) => {
+                        if (col && col.requests.length) {
+                            col.requests.forEach((req) => {
+                                if (req.url === requestPath) {
+                                    request = req;
+                                    collection = col;
+                                }
+                            })
                         }
                     })
-
-                })
+                }
             })
 
-            if (collection && request) {
-                collection.responses.every((res) => {
+            if (collection && collection.responses && request ) {
+                collection.responses.forEach((res) => {
                     if (res.requestId === request._id.toString()) {
                         response = res;
                     }
@@ -42,6 +48,7 @@ exports.handle = async (req, res) => {
             }
             
             if (request && response) {
+
                 let isRequestBodyOk = true;
                 let receivedReqBody = req.body;
                 let savedReqBody = request.reqBody[0];
